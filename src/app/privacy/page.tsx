@@ -52,8 +52,8 @@ export default function PrivacyPage() {
                                         key={section.id}
                                         href={`#${section.id}`}
                                         className={`block text-sm py-2 px-3 rounded-lg transition-colors ${activeSection === section.id
-                                                ? "bg-blue-100 text-blue-700 font-semibold"
-                                                : "text-gray-600 hover:bg-gray-100"
+                                            ? "bg-blue-100 text-blue-700 font-semibold"
+                                            : "text-gray-600 hover:bg-gray-100"
                                             }`}
                                         onClick={() => setActiveSection(section.id)}
                                     >
@@ -254,7 +254,7 @@ export default function PrivacyPage() {
                                         href="/terms"
                                         className="inline-flex items-center justify-center gap-2 bg-white border-2 border-blue-600 text-blue-600 px-6 py-3 rounded-xl font-bold hover:bg-blue-50 transition-all"
                                     >
-                                        <Icons.FileText className="w-5 h-5" />
+                                        <Icons.Shield className="w-5 h-5" />
                                         <span>Terms & Conditions</span>
                                     </Link>
                                 </div>

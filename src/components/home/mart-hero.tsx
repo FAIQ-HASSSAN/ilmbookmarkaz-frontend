@@ -110,7 +110,7 @@ export function MartHero() {
                                         className={`transition-all duration-700 delay-500 ${index === currentSlide ? "translate-y-0 opacity-100" : "translate-y-8 opacity-0"
                                             }`}
                                     >
-                                        <Button size="lg" className="bg-white text-black hover:bg-white/90 border-none shadow-lg hover:shadow-xl transition-all font-semibold px-8 h-12">
+                                        <Button size="lg" className="bg-white/10 backdrop-blur-xl border-2 border-white/30 text-white hover:bg-white/20 hover:border-white/50 shadow-lg hover:shadow-xl transition-all font-semibold px-8 h-12">
                                             {slide.cta}
                                         </Button>
                                     </div>
